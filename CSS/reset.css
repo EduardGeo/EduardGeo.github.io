@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -32,26 +32,236 @@ body {
 	line-height: 1;
 	font-family: "Open Sans", sans-serif, arial;
 	background-image: url("../fondoAzul.png");
-		}
-		#FotoCarnet{
-			width: 150px;}
+}
+#FotoCarnet{
+	width: 150px;}
 
-		.logotipo{
-			width: 140px;
-		}
+	.logotipo{
+		width: 140px;
+	}
 
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	canvas {
+		display: inline-block;
+	}
+
+
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 8px;
+	}
+
+	.parrafo{
+		text-align: justify;
+	}
+
+	.Nombre{
+		text-align: center;
+		font-family: 'Days One', sans-serif;
+		font-weight: bold;
+		font-size: 2em;
+	}
+
+	.textCenter2{
+		text-align: center;
+		font-weight: bold;
+		font-size: 1.3em
+	}
+
+	.textCenter{
+		text-align: center;
+	}
+
+	.negrita{
+		font-weight: bold;
+	}
+
+
+
+	.table {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.table {
+		background-color: transparent;
+	}
+
+
+	.table {
+		border-spacing: 0;
+		border-collapse: collapse;
+	}
+	.table {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.table {
+		display: table;
+		border-collapse: separate;
+		border-spacing: 2px;
+		border-color: grey;
+	}
+
+	.table {
+		text-align: center;
+	}
+
+	.section-title {
+	    text-align:center;
+	}
+	.section-title h1 {
+	    margin:auto;
+	    text-transform:uppercase;
+	}
+	.section-skill {
+	    background:rgba(0, 0, 0, 0);
+	    background-size:cover;
+	    padding-top:80px;
+	    padding-bottom:80px;
+	}
+	.section-subheading-nobg {
+	    margin-top:25px;
+	    font-size:19px;
+	    text-align:center;
+	    text-transform:uppercase;
+	    font-weight:400;
+	    margin-bottom:80px;
+	    letter-spacing:1px;
+	}
+	.skill {
+	    min-height:180px;
+	    background-color:#fff;
+	    border-radius:4px;
+	    width:100%;
+	    margin-bottom: 20px;
+	    display: inline-block;
+
+	}
+	.pad30 {
+	    padding:0 30px;
+	}
+	.skill .name {
+	    width:50%;
+	    float:left;
+	    min-height:180px;
+	    background-color:#424242;
+	    z-index:100;
+	    border-radius:4px 0 0 4px;
+	    -webkit-border-radius:4px 0 0 4px;
+	}
+	.skill .knob {
+	    z-index:90;
+	    float:left;
+	    width:50%;
+	    text-align:center;
+	}
+	.skill .label {
+	    font-size:18px;
+	    text-transform:uppercase;
+	    color:#fff;
+	    text-align:center;
+	    font-weight:400;
+	    letter-spacing:1px;
+	    margin-top:75px;
+	    width:100%;
+	    float:left;
+	}
+	.skill-heading {
+	    margin:0px;
+	    padding:0px;
+	    font-size:18px;
+	    letter-spacing:1px;
+	    color:#fa6862;
+	    padding-top:20px;
+	}
+	.skill-subheading {
+	    margin:0px;
+	    padding:0px;
+	    color:#adadad;
+	    font-size:14px;
+	    font-weight:300;
+	    margin-top:10px;
+	}
+	.skill p {
+	    padding:25px 0px;
+	    font-size:15px;
+	    line-height:22px;
+	    color:#35353c;
+	}
+	.skillnews {
+	    background-color:#fff;
+	    min-height:80px;
+	    text-align:center;
+	    padding-top:20px;
+	    padding-bottom:20px;
+	    margin-top:70px;
+	    border-radius:4px;
+	}
+	.skillnews h2 {
+	    margin:0px;
+	    padding:0px;
+	    color:#fa6862;
+	    font-size:28px;
+	    text-transform:uppercase;
+	}
+	.skillnews h3 {
+	    padding:0px;
+	    margin:0px;
+	    color:#292c34;
+	    margin-top:10px;
+	    font-weight:400;
+	    font-size:18px;
+	    letter-spacing:0.5px;
+	}
+	.arrow {
+	    border-color:transparent transparent transparent #424242;
+	    border-style:solid;
+	    border-width:9px;
+	    width:0;
+	    height:0;
+	    float:right;
+	    margin-right:-18px;
+	    margin-top:75px;
+	    position:relative;
+	}
+	.chart {
+	    position:relative;
+	    display:inline-block;
+	    width:110px;
+	    height:110px;
+	    margin-top:40px;
+	    text-align:center;
+	}
+	.chart canvas {
+	    position:absolute;
+	    top:345;
+	    left:0;
+	}
+	.percent {
+	    display:inline-block;
+	    line-height:110px;
+	    z-index:2;
+	    font-size:25px;
+	    color:#3e3e3e;
+	}
+	.percent:after {
+	    content:'%';
+	    margin-left:0.1em;
+	    font-size: 0.8em;
+		}
