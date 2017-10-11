@@ -281,7 +281,8 @@ body {
 
 		td {
 			background-color: rgba(255, 255, 255, 0.40);
-			vertical-align: middle;
+			align-items: center;
+
 		}
 
 		.left{
@@ -299,4 +300,80 @@ body {
 	position:absolute;
 	top: 50px;
 	left: 50px;
+}
+
+.map {
+height: 250px;
+margin: 0;
+padding: 0;
+
+}
+
+	#pan-to-shoppertec {
+		background-color: #ff6666
+	}
+
+	#pan-to-shoppertec:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+
+	#pan-to-godelleta {
+		background-color: #ffff33
+	}
+
+	#pan-to-godelleta:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }#pan-to-icv {
+		background-color: #66ff33
+	}
+
+	#pan-to-icv:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }#pan-to-pateco {
+		background-color: #d580ff
+	}
+
+	#pan-to-pateco:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }#pan-to-emergencias {
+		background-color: #80bfff
+	}
+
+	#pan-to-emergencias:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+	.btn {
+		font-size: 15px;
+		background-color: grey;
+		border-color: grey
+	}
+
+
+
+	.btn:enabled {
+		background-color: grey;
+		border-color: grey
+	}
+
+	.btn:hover {
+		background-color: black;
+		border-color: black
+	}
+
+
+
+#hijo {
+	text-align: justify;
+  margin-left: 200px;
+}
+
+#demo {
+
+	 background-color: rgba(255,255,255,0.5)
+}
+
+.video {
+  display: flex;
+  justify-content: center;
 }
